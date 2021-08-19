@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding:0;
+}
+
+body{
+    margin: 0px;
+    /* background-color: rgb(228, 186, 255); */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main_content{
+    background-color: rgb(209, 183, 250);
+    display:flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    background-color: rgb(120, 89, 207);
+    flex: 30%;
+    padding: 20px;
+}
+
+.form_field{
+    margin: 20px;
+}
+
+.form_field input{
+    padding: 10px;
+    width:100%;
+}
+
+section{
+    flex : 70%;
+    padding: 20px;
+    height: 100%;
+}
+
+.resume_head{
+    text-align: center;
+
+}
+
+.resume_body{
+    line-height: 30px;
+    padding: 15px;
+    width: auto;
+}
+
+h3.resume_sub{
+    margin: 30px 0px 10px 0px;
+}
+
+
+
+
+.head{
+    background-color: rgb(21, 8, 95);
+    color: #fff;
+    padding: 5px;
+}
+
+main aside h3{
+    color: rgb(255, 255, 255);
+}
+
+.Btn{
+    display: grid;
+}
+
+.btn{
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+}
